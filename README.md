@@ -1,5 +1,12 @@
 ## Hi there 👋
 
+<p>
+  <img src="https://img.shields.io/badge/Javascript-blue?style=flat-square&logo=javascript&logoColor=000000">
+
+
+  
+</p>
+
 <!--
 **karishmag83/karishmag83** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
