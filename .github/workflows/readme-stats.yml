@@ -1,0 +1,38 @@
+name: readme-stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # 1) GitHub stats card
+      - name: Generate GitHub stats card
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=karishmag83&show_icons=false&hide_border=true&theme=tokyonight
+          path: assets/stats/stats.svg
+          token: ${{ secrets.MY_TOKEN }}
+
+      # 2) Top languages card
+      - name: Generate Top languages card
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=karishmag83&layout=compact&hide_border=true&theme=tokyonight
+          path: assets/stats/top-langs.svg
+          token: ${{ secrets.MY_TOKEN }}
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update readme cards"
