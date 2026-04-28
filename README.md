@@ -58,8 +58,8 @@ Here are some ideas to get you started:
   <a href="https://www.linkedin.com/in/karishmagawali/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://karishma.netlify.app"> 
-  <img src="https://img.shields.io/badge/karishmagawali.netlify.app-0A66C2?style=flat-square&logo=framer&logoColor=white" />
+  <a href="https://karishmagawali.netlify.app"> 
+  <img src="https://img.shields.io/badge/karishma.framer.website-0A66C2?style=flat-square&logo=framer&logoColor=white" />
   </a>
   <a href="karishmaworks08@gmail.com">
     <img src="https://img.shields.io/badge/karishmaworks08@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
